@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 246, 247);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.title h1, h3 {
+  margin: auto;
+}
+.title h1 span {
+  color: rgb(245, 167, 0);
+}
+
+.title h1 {
+  color:  #ffca8c;
+}
+
+.title h3 {
+  color: rgb(160, 160, 160);
+  text-align: center;
+}
+
+h6 {
+  color: rgb(207, 206, 206);
+  margin: auto;
+}
+
+.aleatory-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.outputRandomNumers {
+  border-radius: 8px 8px 8px 8px;
+    width: 128px;
+    display: flex;
+    align-items: center;
+    background: bisque;
+    height: 60px;
+}
+
+.outputRandomNumers input {
+  margin: 5px;
+}
+
+.outputNumberField {
+  padding: 5px 10px;
+  width: 50px;
+  height: 50px;
+  background: rgb(245, 167, 0);
+  border-radius:  0 8px 8px 0;
+}
+
+.outputNumberField span {
+  color: rgb(255, 255, 255);
+  font-size: 38px;
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif;
+  margin: -9px;
+}
+
+.inputNumbers {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.inputNumbers input {
+  width: 35px;
+  border-style: none;
+  text-align: center;
+  color: rgb(74, 74, 74);
+}
+
+.inputNumbers label {
+  width: 30px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(74, 74, 74);
+}
+
+
+.aleatory-number input[type=button] {
+  font-size: larger;
+  width: 75px;
+  color: azure;
+  border-radius: 5px;
+  border-style: none;
+  margin: 3px auto;
+  background: rgb(245, 167, 0);
+  height: 30px;
+  font-weight: 400;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.text-area form {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-area form label {
+  margin: auto;
+  margin-bottom: 30px;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(74, 74, 74);
+  text-align: center;
+}
+
+.text-area textarea {
+  max-width: 320px;
+  margin: auto;
+  border-radius: 10px;
+  background: rgb(245, 245, 245);
+}
+
+.text-area input {
+  font-size: larger;
+  width: 120px;
+  color: azure;
+  border-radius: 5px;
+  border-style: none;
+  margin: 10px auto;
+  background: rgb(245, 167, 0);
+  height: 30px;
+  font-weight: 400;
+}
+
+.output {
+  font-family: 'Nunito', sans-serif;
+  font-size: larger;
+  margin: auto;
+  color: rgb(74, 74, 74);
+}
