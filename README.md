@@ -5,4 +5,4 @@ tambem sortei de itens em uma lista.
 
 ![sorteador](sorteador_print.png)
 
-![link](https://enicio.github.io/randomizer/)
+![link]('https://enicio.github.io/randomizer/')
